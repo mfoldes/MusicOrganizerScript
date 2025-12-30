@@ -1,0 +1,30 @@
+# PowerShell Module/Script artifacts
+*.ps1xml
+*.psd1.bak
+*.psm1.bak
+
+# PowerShell Transcripts
+PowerShell_transcript*.txt
+
+# Visual Studio Code settings (optional - uncomment if you want to ignore)
+.vscode/
+
+# Build output
+/out/
+/Output/
+/bin/
+/obj/
+
+# Module manifest backup
+*.psdxml
+
+# Package management
+/packages/
+*.nupkg
+
+# Secret management
+secrets.ps1
+*.secret.ps1
+
+# Log files
+*.log
